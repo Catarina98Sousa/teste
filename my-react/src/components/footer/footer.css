@@ -1,0 +1,16 @@
+/* background */
+.footer {
+  background-color: var(--bg);
+  width: 100%;
+  height: 7vh;
+}
+/* text */
+.by {
+  color: var(--text);
+  font-weight: 200;
+}
+
+.social-icon {
+  font-size: 25px;
+  color: var(--text);
+}
