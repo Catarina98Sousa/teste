@@ -1,14 +1,18 @@
-import "./Banner.css";
+/* CSS */
+import "../2-banner/Banner.css";
+
+/* other */
 import "bootstrap/dist/css/bootstrap-grid.min.css";
 /* import Fade from "react-reveal/Fade"; */
+
 /* bootstrap n esta a funcionar
  */
 function Banner(props) {
   return (
     <div className="banner" id="home">
-      <div className="container">
+      <div className="container-md container-sm">
         <div className="row">
-          <div className="col-2"></div>
+          <div className="col-md-2 col-sm"></div>
           {/* <Fade left oposite cascade> */}
             <div className="col intro">
               <h2>Hello!</h2>

@@ -10,7 +10,15 @@
   font-weight: 200;
 }
 
+/* icons */
 .social-icon {
   font-size: 25px;
   color: var(--text);
+  margin: 2px;
 }
+
+.social-icon-def {
+  font-size: 30px;
+  color: var(--text);
+}
+

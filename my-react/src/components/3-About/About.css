@@ -1,10 +1,5 @@
-.About {
-  background: var(--bg-color);
-}
-
 .profile {
   width: 100%;
-  max-width: 300px;
 }
 
 .text {

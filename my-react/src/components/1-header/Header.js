@@ -1,7 +1,15 @@
+/* CSS */
 import "./header.css";
 import "../button/button.css";
+
+/* Img/icons */
 import { Logo, LogoDark } from "../../images/icon/logo";
 import { Moon, Sun } from "../../images/icon/menu/swicth";
+
+/* Animation */
+import {Link} from "react-scroll";
+
+/* others */
 import React, { useState } from "react";
 
 function Header(props) {
@@ -37,34 +45,34 @@ function Header(props) {
     <header className={header ? "header active" : "header"}>
       <div className="nav">
         <a href="#home" className="logo">
-          <img src={props.theme === "light" ? Logo : LogoDark} alt="" />
+          <img src={props.theme === "light" ? Logo : LogoDark} alt="logo" />
         </a>
         <div className="menu">
           <ul className={active}>
             <li className="nav-item">
-              <a href="#home" className="nav-item">
+              <Link to="home" spy={true} smooth={true} offset={-100} duration={500} className="nav-item" >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-item">
+            <Link to="about" spy={true} smooth={true} offset={-58} duration={500} className="nav-item" >
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#skill" className="nav-item">
-                Skill
-              </a>
+            <Link to="skill" spy={true} smooth={true} offset={-50} duration={500} className="nav-item" >
+                Skills
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#projects" className="nav-item">
+            <Link to="projects" spy={true} smooth={true} offset={-58} duration={500} className="nav-item" >
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a href="#contact" className="nav-item">
-                Contact
-              </a>
+            <Link to="contact" spy={true} smooth={true} offset={0} duration={500} className="nav-item" >
+            Contact
+              </Link>
             </li>
           </ul>
           <button className="swicth-btn" onClick={props.handleThemeChange}>

@@ -1,17 +1,21 @@
-import "../About/About.css";
+/* CSS */
+import "../3-About/About.css";
 import "../button/button.css";
-import Skill from "../skills/skill";
+
+/* img/icons */
 import { Profile, ProfileDark } from "../../images/galery/profile";
+import { BsFillFileEarmarkPdfFill } from "react-icons/bs";
+
 /* import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom"; */
-import { BsFillFileEarmarkPdfFill } from "react-icons/bs";
+
 
 function About(props) {
   return (
     <div className="About " id="about">
-      <div className="container py-5">
+      <div className="container-md container-sm py-5">
         <div className="row mx-5 justify-content-center">
-          <div className="col">
+          <div className="col-md col-sm">
             {/* <Fade left oposite cascade> */}
               <h1 className="title mb-5">About</h1>
           {/*   </Fade> */}
@@ -19,18 +23,13 @@ function About(props) {
         </div>
         <div className="row mx-5">
          {/*  <Zoom> */}
-            <div className="col-4">
-              {" "}
+            <div className="col-md-4 col-sm">
               {/* phone difer  */}
-              <img /* img n funciona ver mais tarde */
-                src={props.theme === "light" ? Profile : ProfileDark}
-                className="profile"
-                alt="profile"
-              />
+              <img src={props.theme === "light" ? Profile : ProfileDark} alt="photo-profile" className="profile" />
             </div>
           {/* </Zoom> */}
          {/*  <Fade right oposite cascade> */}
-            <div className="col text">
+            <div className="col-md-7 col-sm text">
               <p>
                 t is a long established fact that a reader will be distracted by
                 the readable content of a page when looking at its layout. The
@@ -47,10 +46,10 @@ function About(props) {
           {/* </Fade> */}
           <div className="row d-inline-flex justify-content-end mt-3 ">
             {/* phone difer */}
-            <div className="col"></div>
+            <div className="col-md col-sm"></div>
             {/* <Zoom> */}
-              <div className="col-3">
-                <a href="cv-en" download className="btn-primary">
+              <div className="col-md-3 col-sm-1">
+                <a href="CV-EN.pdf" download="CV-EN.pdf" className="btn-primary">
                   {/* phone difer  */}
                   <p>
                     <span className="icon-btn">
@@ -60,8 +59,8 @@ function About(props) {
                   </p>
                 </a>
               </div>
-              <div className="col-3">
-                <a href="cv-pt" download className="btn-primary">
+              <div className="col-md-3 col-sm-1">
+                <a href="CV-PT.pdf" download="CV-PT.pdf" className="btn-primary">
                   {/* phone difer  */}
 
                   <p>
@@ -75,7 +74,7 @@ function About(props) {
             {/* </Zoom> */}
           </div>
         </div>
-        <Skill />
+        
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+/* CSS */
 import "../basicCard/basicCard.css";
 
 function BasicCard(props) {

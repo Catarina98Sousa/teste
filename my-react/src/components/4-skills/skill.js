@@ -1,3 +1,7 @@
+/* CSS */
+import "../4-skills/skill.css";
+
+/* Img/icons */
 import Photoshop from "../../images/icon/skills/photoshop.png";
 import Premiere from "../../images/icon/skills/premiere.png";
 import Ilustrator from "../../images/icon/skills/ilustrator.png";
@@ -8,21 +12,21 @@ import CSS from "../../images/icon/skills/css.png";
 import Javascript from "../../images/icon/skills/javascript.png";
 import Sass from "../../images/icon/skills/sass.png";
 import React from "../../images/icon/skills/react.png";
-import "../skills/skill.css";
+
 /* import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom"; */
 
 function Skill(props) {
   return (
-    <div className="Skill" id="skill">
-      <div className="container py-5">
+    <div className="Skill py-5" id="skill">
+      <div className="container-md container-sm py-5">
         <div className="row mx-5">
           {/* <Fade left oposite cascade> */}
             <h1 className="title mb-5">Skill</h1>
           {/* </Fade> */}
         </div>
         <div className="row">
-          <div className="col d-flex justify-content-center">
+          <div className="col-md col-sm d-flex justify-content-center">
             <div className="tools">
               {/* Adobe  */}
               {/* Photoshop */}
