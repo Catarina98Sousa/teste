@@ -17,13 +17,13 @@ function Footer(props) {
             <p>Developed by Catarina Sousa</p>
           </div>
           <div className="col d-flex justify-content-end align-items-end pt-2">
-            <a href="#home" >
+            <a href="https://www.linkedin.com/in/catarina-sousa-386b69247/" >
             <BsLinkedin className="social-icon mx-1" /></a>
-            <a href="#home" >
+            <a href="#Contact" >
             <BsWhatsapp className="social-icon mx-1" /></a>
-            <a href="#home" >
+            <a href="https://github.com/Catarina98Sousa" >
             <BsGithub className="social-icon mx-1" /></a>
-            <a href="#home" >
+            <a href="https://codepen.io/SakuraCat" >
                 <AiFillCodepenSquare className="social-icon-def mx-1"/>
                 </a>
           </div>
