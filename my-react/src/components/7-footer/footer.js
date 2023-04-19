@@ -4,7 +4,6 @@ import "../button/button.css";
 
 /* Img/icons */
 import { BsGithub } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillCodepenSquare } from "react-icons/ai";
 
@@ -19,8 +18,6 @@ function Footer(props) {
           <div className="col d-flex justify-content-end align-items-end pt-2">
             <a href="https://www.linkedin.com/in/catarina-sousa-386b69247/" >
             <BsLinkedin className="social-icon mx-1" /></a>
-            <a href="#Contact" >
-            <BsWhatsapp className="social-icon mx-1" /></a>
             <a href="https://github.com/Catarina98Sousa" >
             <BsGithub className="social-icon mx-1" /></a>
             <a href="https://codepen.io/SakuraCat" >

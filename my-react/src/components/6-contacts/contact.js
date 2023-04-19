@@ -41,17 +41,17 @@ function Contact(props) {
           <div className="col-md-4 col-sm">
             {/* <Zoom cascade> */}
               <div className="d-flex flex-wrap justify-content-center align-self-center">
-                <a href="#home" className="midia">
+                <a href="https://www.linkedin.com/in/catarina-sousa-386b69247/" className="midia">
                  <BsLinkedin className="social-big" />
                 </a>
-                <a href="#home" className="midia">
+                <a href="#contact" className="midia">
                 <BsWhatsapp className="social-big" />
                 </a>
-                <a href="#home" className="midia">
+                <a href="https://codepen.io/SakuraCat" className="midia">
                 <AiFillCodepenSquare className="social-big-def"/>
                 </a>
 
-                <a href="#home" className="midia">
+                <a href="https://github.com/Catarina98Sousa" className="midia">
                  <BsGithub className="social-big" /> 
 
                 </a>

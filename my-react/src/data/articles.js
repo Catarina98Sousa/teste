@@ -3,7 +3,7 @@ const articles = [
     id: 1,
     title: "Thayajewels",
     image:
-      "https://cdn.discordapp.com/attachments/1017552737451388948/1017902638764916797/react.png",
+      "https://cdn.discordapp.com/attachments/1017552737451388948/1098353082854813786/image.png",
     link: "See more >"
     /* url:
       "https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/"

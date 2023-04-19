@@ -6,6 +6,8 @@ import "../button/button.css";
 import { Profile, ProfileDark } from "../../images/galery/profile";
 import { BsFillFileEarmarkPdfFill } from "react-icons/bs";
 
+
+
 /* import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom"; */
 
@@ -24,23 +26,16 @@ function About(props) {
         <div className="row mx-5">
          {/*  <Zoom> */}
             <div className="col-md-4 col-sm">
-              {/* phone difer  */}
-              <img src={props.theme === "light" ? Profile : ProfileDark} alt="photo-profile" className="profile" />
+              {/* phone difer  */} 
+              <img src={props.theme === "light" ? Profile : ProfileDark} alt="profile" className="profile" />
             </div>
           {/* </Zoom> */}
          {/*  <Fade right oposite cascade> */}
-            <div className="col-md-7 col-sm text">
+            <div className="col-md col-sm text align-content-center">
               <p>
-                t is a long established fact that a reader will be distracted by
-                the readable content of a page when looking at its layout. The
-                point of using Lorem Ipsum is that it has a more-or-less normal
-                distribution of letters, as opposed to using 'Content here,
-                content here', making it look like readable English. Many
-                desktop publishing packages and web page editors now use Lorem
-                Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
-                Various versions have evolved over the years, sometimes by
-                accident, sometimes on purpose (injected humour and the like).
+                Hello world <br/><br/>
+                I am Catarina Sousa who is an enthusiastic about creating engaging and delightful digital experiences.
+               <br/><br/> I am a curious person who is open to new knowledge and skills, constantly seeking learning opportunities to stay updated and improve my professional performance.
               </p>
             </div>
           {/* </Fade> */}
@@ -49,7 +44,7 @@ function About(props) {
             <div className="col-md col-sm"></div>
             {/* <Zoom> */}
               <div className="col-md-3 col-sm-1">
-                <a href="CV-EN.pdf" download="CV-EN.pdf" className="btn-primary">
+                <a href="CV-EN.pdf" download="CV-Catarina Sousa-EN.pdf" className="btn-primary">
                   {/* phone difer  */}
                   <p>
                     <span className="icon-btn">
@@ -60,7 +55,7 @@ function About(props) {
                 </a>
               </div>
               <div className="col-md-3 col-sm-1">
-                <a href="CV-PT.pdf" download="CV-PT.pdf" className="btn-primary">
+                <a href="CV-PT.pdf" download="CV-Catarina Sousa-PT.pdf" className="btn-primary">
                   {/* phone difer  */}
 
                   <p>

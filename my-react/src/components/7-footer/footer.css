@@ -20,9 +20,10 @@
 }
 
 .social-icon-def {
-  font-size: 30px;
+  font-size: 31px;
   color: var(--text);
   opacity: 0.5;
+  transition: 1s ease;
 }
 
 .social-icon:hover{
@@ -33,7 +34,7 @@
 }
 
 .social-icon-def:hover {
-  font-size: 30px;
+  font-size: 31px;
   color: var(--text);
   opacity: 1;
 }
