@@ -4,7 +4,7 @@ const articles = [
     title: "Thayajewels",
     image:
       "https://cdn.discordapp.com/attachments/1017552737451388948/1098353082854813786/image.png",
-    link: "See more >"
+    link: "See more >",
     /* url:
       "https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/"
   */
@@ -14,17 +14,17 @@ const articles = [
     title: "App React",
     image:
       "https://cdn.discordapp.com/attachments/1017552737451388948/1017902638764916797/react.png",
-    link: "See more >"
-    /* url:
-      "https://www.freecodecamp.org/news/learn-javascript-game-development-full-course/"
-  */
+    link: "See more >",
+    url:
+    "https://react-alpaca.netlify.app/"
+ 
   },
   {
     id: 3,
     title: "Pingo Doce",
     image:
       "https://cdn.discordapp.com/attachments/1017552737451388948/1017591619622535198/unknown.png",
-    link: "See more >"
+    link: "See more >",
     /*  url:
       "https://www.freecodecamp.org/news/objects-in-javascript-for-beginners/"
    */
@@ -34,7 +34,7 @@ const articles = [
     title: "Imc Calculator",
     image:
       "https://cdn.discordapp.com/attachments/1017552737451388948/1017902638177726474/imc.png",
-    link: "See more >"
+    link: "See more >",
     /*  url:
       "https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/"
   */
@@ -44,7 +44,7 @@ const articles = [
     title: "Flags",
     image:
       "https://cdn.discordapp.com/attachments/1017552737451388948/1017902638177726474/imc.png",
-    link: "See more >"
+    link: "See more >",
     /*  url:
       "https://www.freecodecamp.org/news/learn-javascript-game-development-full-course/"
    */
@@ -54,7 +54,7 @@ const articles = [
     title: "to do list",
     image:
       "https://cdn.discordapp.com/attachments/1017552737451388948/1017902638177726474/imc.png",
-    link: "See more >"
+    link: "See more >",
     /*   url:
       "https://www.freecodecamp.org/news/objects-in-javascript-for-beginners/"
  */
