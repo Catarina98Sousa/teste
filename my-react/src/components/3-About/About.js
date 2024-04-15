@@ -3,7 +3,7 @@ import "../3-About/About.css";
 import "../button/button.css";
 
 /* img/icons */
-import { Profile, ProfileDark } from "../../images/galery/profile";
+import { Profile, ProfileDark } from "../../images/galery/profile.js";
 import { BsFillFileEarmarkPdfFill } from "react-icons/bs";
 
 
@@ -32,7 +32,7 @@ function About(props) {
           {/* </Zoom> */}
          {/*  <Fade right oposite cascade> */}
             <div className="col-md col-sm text align-content-center">
-              <p>
+              <p >
                 Hello world <br/><br/>
                 I am Catarina Sousa who is an enthusiastic about creating engaging and delightful digital experiences.
                <br/><br/> I am a curious person who is open to new knowledge and skills, constantly seeking learning opportunities to stay updated and improve my professional performance.
@@ -44,7 +44,7 @@ function About(props) {
             <div className="col-md col-sm"></div>
             {/* <Zoom> */}
               <div className="col-md-3 col-sm-1">
-                <a href="CV-EN.pdf" download="CV-Catarina Sousa-EN.pdf" className="btn-primary">
+                <a href="CV-EN-Catarina Sousa.pdf" download="CV-EN-Catarina Sousa.pdf" className="btn-primary">
                   {/* phone difer  */}
                   <p>
                     <span className="icon-btn">
@@ -55,7 +55,7 @@ function About(props) {
                 </a>
               </div>
               <div className="col-md-3 col-sm-1">
-                <a href="CV-PT.pdf" download="CV-Catarina Sousa-PT.pdf" className="btn-primary">
+                <a href="CV-PT-Catarina Sousa.pdf" download="CV-PT-Catarina Sousa.pdf" className="btn-primary">
                   {/* phone difer  */}
 
                   <p>

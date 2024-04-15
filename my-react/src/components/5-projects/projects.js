@@ -40,7 +40,7 @@ function Projects(props) {
           </div>
           {/* <Fade right oposite cascade> */}
             <div className="col-md-2 col-sm-2">
-              <a href="https://github.com/Catarina98Sousa" target="_blank" className="btn-primary">
+              <a href="https://github.com/Catarina98Sousa" className="btn-primary">
                 see more <BsChevronRight className="arrow"/>
               </a>
             </div>

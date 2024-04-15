@@ -3,8 +3,8 @@ import "./header.css";
 import "../button/button.css";
 
 /* Img/icons */
-import { Logo, LogoDark } from "../../images/icon/logo";
-import { Moon, Sun } from "../../images/icon/menu/swicth";
+import { Logo, LogoDark } from "../../images/icon/logo.js";
+import { Moon, Sun } from "../../images/icon/menu/swicth.js";
 
 /* Animation */
 import {Link} from "react-scroll";

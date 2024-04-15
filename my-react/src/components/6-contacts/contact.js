@@ -11,7 +11,6 @@ import Zoom from "react-reveal/Zoom"; */
 import { BsGeoAltFill } from "react-icons/bs";
 import { BsEnvelopeFill } from "react-icons/bs";
 import { BsTelephoneFill } from "react-icons/bs";
-import { BsPhoneFill } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
@@ -19,7 +18,7 @@ import { AiFillCodepenSquare } from "react-icons/ai";
 
 function Contact(props) {
   return (
-    <div className="Contact py-5" id="contact">
+    <div className="Contact py-3" id="contact">
       <div className="container-md container-sm py-5">
         <div className="row mx-5 mb-5 justify-content-between align-items-baseline">
           <div className="col-md col-sm">
@@ -37,8 +36,10 @@ function Contact(props) {
          {/*  </Fade> */}
         </div>
 
-        <div className="row pt-4 mx-3 d-flex align-items-center">
-          <div className="col-md-4 col-sm">
+        <div className="row pt-5 col-md"></div>
+        <div className="row pt-5 d-flex align-items-center">
+          <div className="col-md-1"></div>
+          <div className="col-md-3 col-sm">
             {/* <Zoom cascade> */}
               <div className="d-flex flex-wrap justify-content-center align-self-center">
                 <a href="https://www.linkedin.com/in/catarina-sousa-386b69247/" className="midia">
@@ -61,7 +62,7 @@ function Contact(props) {
           <div className="col-md col-sm">
             <div className="info mx-5">
               {/* <Fade right delay={500} cascade> */}
-                <div className=" border mb-5">
+                <div className=" border mb-4">
                   <div className="d-flex justify-content-center align-items-center">
                     <p className="d-flex align-items-center sub-title">
                       <BsEnvelopeFill className="me-3" /> Email:
@@ -72,30 +73,19 @@ function Contact(props) {
                 <div className="row mx-1 ">
                   <div className="border col-md col-sm me-1">
                     <div className="d-flex justify-content-center align-items-center">
-                      <h4 className="mb-2 d-flex align-items-center ">
+                      <p className="d-flex align-items-center sub-title">
                         <BsTelephoneFill className="me-2" />{" "}
-                        <BsWhatsapp className="me-2" /> Phone(Whatsap)
-                      </h4>
-                    </div>
-                    <div className="d-flex justify-content-center align-items-center">
-                      <p className="number">962229610</p>
+                        <BsWhatsapp className="me-3" /> Phone (Whatsap):  
+                      </p>
+                      <p className="number ms-3"> 962229610</p>
                     </div>
                   </div>
-                  <div className="border col-md col-sm ms-1">
-                    <div className="d-flex justify-content-center align-items-center">
-                      <h4 className="mb-2">
-                        <BsPhoneFill className="me-2" />
-                        Phone (Call)
-                      </h4>
-                    </div>
-                    <div className="d-flex justify-content-center align-items-center">
-                      <p className="number">928102978</p>
-                    </div>
-                  </div>
+                  
                 </div>
               {/* </Fade> */}
             </div>
           </div>
+          <div className="col-md-1"></div>
         </div>
       </div>
     </div>

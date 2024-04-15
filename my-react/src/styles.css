@@ -1,5 +1,4 @@
 /* Imports */
-
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* Root */
@@ -7,7 +6,7 @@
   /* background */
 
   --bg: #ffe8e8;
-  --bg-img: url("https://cdn.discordapp.com/attachments/1017552737451388948/1017576100429316156/lightBG.jpg");
+  --bg-img: url('./images/background/lightBg.jpg');
   --bg-color: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.3),
@@ -24,7 +23,7 @@
   --bg-card: #f5f5f5;
 
   /* profile */
-  --prof-img: url("https://cdn.discordapp.com/attachments/1017552737451388948/1017849743751249990/profile-pic_d.png");
+  --prof-img: url('./images/galery/profile-pic.png');
 
   /* color */
   --main-color: #f0215f;
@@ -48,14 +47,14 @@
 [data-theme="dark"] {
   /* background */
   --bg: #0c0615;
-  --bg-img: url("https://cdn.discordapp.com/attachments/1017552737451388948/1017576100097962114/darkBG.jpg");
+  --bg-img: url('./images/background/darkBg.jpg');
   --bg-color: linear-gradient(180deg, #f0215f 0%, #3428ad 100%);
   --bg-color-2: linear-gradient(180deg, #3428ad 0%, #ac3584 100%);
   --header-color: rgba(0, 0, 0, 0.8);
   --bg-card: #25233b;
 
    /* profile */
-   --prof-img: url("https://cdn.discordapp.com/attachments/1017552737451388948/1017849744367816715/profile-pic.png");
+   --prof-img: url('./images/galery/profile-picd.png');
 
   /* color */
   --btn-primary: linear-gradient(90deg, #ac3584 0%, #ed366c 100%);

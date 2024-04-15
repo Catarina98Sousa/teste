@@ -1,9 +1,14 @@
+import ThayaIMG from "../images/galery/thaya.png"
+import AppReactIMG from "../images/galery/react.png"
+import PingoDoceIMG from "../images/galery/pingoD.png"
+import ImcIMG from "../images/galery/imc.png"
+import CarroselIMG from "../images/galery/carossel.png"
+import ListToDoIMC from "../images/galery/list.png"
 const articles = [
   {
     id: 1,
     title: "Thayajewels",
-    image:
-      "https://cdn.discordapp.com/attachments/1017552737451388948/1098353082854813786/image.png",
+    image: ThayaIMG,
     link: "See more >",
     /* url:
       "https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/"
@@ -12,8 +17,7 @@ const articles = [
   {
     id: 2,
     title: "App React",
-    image:
-      "https://cdn.discordapp.com/attachments/1017552737451388948/1017902638764916797/react.png",
+    image: AppReactIMG,
     link: "See more >",
     url:
     "https://react-alpaca.netlify.app/"
@@ -22,8 +26,7 @@ const articles = [
   {
     id: 3,
     title: "Pingo Doce",
-    image:
-      "https://cdn.discordapp.com/attachments/1017552737451388948/1017591619622535198/unknown.png",
+    image: PingoDoceIMG,
     link: "See more >",
     /*  url:
       "https://www.freecodecamp.org/news/objects-in-javascript-for-beginners/"
@@ -32,8 +35,7 @@ const articles = [
   {
     id: 4,
     title: "Imc Calculator",
-    image:
-      "https://cdn.discordapp.com/attachments/1017552737451388948/1017902638177726474/imc.png",
+    image: ImcIMG,
     link: "See more >",
     /*  url:
       "https://www.freecodecamp.org/news/what-is-redux-store-actions-reducers-explained/"
@@ -41,9 +43,8 @@ const articles = [
   },
   {
     id: 5,
-    title: "Flags",
-    image:
-      "https://cdn.discordapp.com/attachments/1017552737451388948/1017902638177726474/imc.png",
+    title: "Carrosel javacript",
+    image: CarroselIMG,
     link: "See more >",
     /*  url:
       "https://www.freecodecamp.org/news/learn-javascript-game-development-full-course/"
@@ -51,9 +52,8 @@ const articles = [
   },
   {
     id: 6,
-    title: "to do list",
-    image:
-      "https://cdn.discordapp.com/attachments/1017552737451388948/1017902638177726474/imc.png",
+    title: "To do list",
+    image: ListToDoIMC,
     link: "See more >",
     /*   url:
       "https://www.freecodecamp.org/news/objects-in-javascript-for-beginners/"

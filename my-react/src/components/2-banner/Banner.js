@@ -11,6 +11,8 @@ function Banner(props) {
   return (
     <div className="banner" id="home">
       <div className="container-md container-sm">
+        <div className="row pt-5"></div>
+        <div className="row pt-5"></div>
         <div className="row">
           <div className="col-md-2 col-sm"></div>
           {/* <Fade left oposite cascade> */}

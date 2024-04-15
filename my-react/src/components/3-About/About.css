@@ -1,13 +1,12 @@
 .profile {
   width: 100%;
-
 }
 
 .text {
   display: flex;
   flex-wrap: wrap;
   color: var(--text);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
 }
 
